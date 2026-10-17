@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex-workbuddy-wechat-bridge"
+version = "0.1.0"
+description = "Local MCP bridge from WorkBuddy's WeChat assistant to existing Codex chats"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[project.scripts]
+codex-workbuddy-wechat-bridge = "codex_wechat_bridge:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["codex_wechat_bridge"]

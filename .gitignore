@@ -1,0 +1,10 @@
+# Allowlist: private local files are ignored by default.
+*
+!.gitignore
+!README.md
+!LICENSE
+!pyproject.toml
+!src/
+!src/codex_wechat_bridge.py
+!tests/
+!tests/test_protocol.py
